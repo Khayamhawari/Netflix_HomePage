@@ -1,0 +1,196 @@
+@media only screen and (max-width: 1024px) {
+
+    /* header section starts from here */
+    .main-nav {
+        padding: 15px 40px;
+    }
+
+    /* fourth section starts from here */
+    .content-4 p {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .first-section-area {
+        flex-direction: column;
+    }
+
+    .section-content-1 {
+        max-width: 75vw;
+        text-align: center;
+    }
+
+    .poster-container {
+        margin-top: -147px;
+        margin-left: 33px;
+    }
+
+    /* second section starts from here  */
+    .content-section-2 {
+        margin-left: 0;
+    }
+
+    .drowpdown-list-2 {
+        max-width: 15vw;
+        margin-left: 24px;
+    }
+
+    .last-line {
+        margin-left: 24px;
+    }
+
+}
+
+@media only screen and (max-width: 615px) {
+    .form-container .form-area input {
+        width: 100%;
+    }
+
+    .form-container .form-area button {
+        margin-top: 10px;
+    }
+    .poster-container {
+        margin-top: -110px;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+
+    /* header section starts from here */
+    .main-nav {
+        padding: 15px 18px;
+    }
+
+    .nav-logo img {
+        height: 31px;
+    }
+
+    .drowpdown-list .selector {
+        width: 1.70rem;
+        font-size: 0.9rem;
+    }
+
+    .header-content .upper-content h1 {
+        font-size: 1.80rem;
+    }
+
+    .header-content .upper-content p {
+        font-size: 1.10rem;
+    }
+
+    .header-content .lowwer-content p {
+        font-size: 1.10rem;
+    }
+
+    .form-container .form-area input {
+        width: 100%;
+    }
+
+    .form-container .form-area button {
+        margin-top: 10px;
+    }
+
+    /* first section starts from here  */
+    .section-content-1 h2 {
+        font-size: 1.90rem;
+    }
+
+    .section-content-1 p {
+        font-size: 1rem;
+    }
+
+    .image-video img {
+        height: 271px;
+    }
+
+    .image-video video {
+        position: absolute;
+        top: 20%;
+        right: -1%;
+        overflow-x: hidden;
+        height: 180px;
+    }
+
+    .section-content-1 {
+        max-width: 95vw;
+    }
+
+    /* third section starts from here  */
+    .third-image-video img {
+        height: 283px;
+    }
+
+    /* fourth section starts from here */
+    .content-4 h2 {
+        margin-right: 0;
+    }
+
+    /* FAQs section starts from here */
+    .qst-ans-section h2 {
+        font-size: 1.70rem;
+    }
+
+    .question h4 {
+        font-size: 1.10rem;
+    }
+
+    .accordian {
+        padding: 20px 16px;
+    }
+
+    .icon {
+        font-size: 2rem;
+    }
+
+    .answer p {
+        margin-top: 14px;
+    }
+
+    /* special-div before footer */
+    .form-area-2 {
+        flex-direction: column;
+    }
+
+    .footer-section {
+        display: grid;
+        grid-template-columns: 200px 150px;
+        gap: 15px;
+    }
+
+    .last-line {
+        margin-bottom: 30px;
+        margin-left: 21px;
+    }
+
+    .drowpdown-list-2 {
+        max-width: 10vw;
+        margin-left: 22px;
+    }
+
+    .footer-first-line {
+        padding: 14px 26px;
+        font-size: 0.9rem;
+    }
+
+    .footer-first-line a  {
+        font-size: 0.9rem;
+    }
+
+}
+
+@media only screen and (max-width:390px) {
+    .main-nav {
+        padding: 15px 14px;
+    }
+
+    .poster-container {
+        margin-top: -103px;
+        margin-left: 17px;
+        margin-right: 11px;
+    }
+
+    .drowpdown-list-2 {
+        max-width: 11vw;
+    }
+}
